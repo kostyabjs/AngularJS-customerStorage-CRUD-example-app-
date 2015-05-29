@@ -25,7 +25,7 @@ angular.module('angularTest', ['ui.bootstrap'])
         //Modal window
         $scope.open = function (customer) {
             $modal.open({
-                templateUrl: '../views/modal/addCustomerModal.html',
+                templateUrl: 'views/modal/addCustomerModal.html',
                 scope: $scope,
                 controller: function ($scope, $modalInstance, editCustomer) {
                     if (!editCustomer) {
